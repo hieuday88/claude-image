@@ -1,6 +1,6 @@
 ---
 name: claude-image
-description: Generate images from a text prompt by delegating to the Antigravity CLI (agy), which calls Google's Gemini image model. Use whenever the user asks to create, generate, draw, or make an image, picture, illustration, logo, poster, icon, wallpaper, or artwork — including Vietnamese requests like "tạo ảnh", "vẽ ảnh", "tạo hình", "làm logo/poster". Output is saved as an image file and its path is reported.
+description: Generate images from a text prompt by delegating to the Antigravity CLI (agy), which calls Google's Gemini image model. Use whenever the user asks to create, generate, draw, or make an image, picture, illustration, logo, poster, icon, wallpaper, or artwork. Output is saved as an image file and its path is reported.
 allowed-tools:
   - Bash
   - Read
