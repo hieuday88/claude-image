@@ -20,11 +20,24 @@ You ──► Claude Code ──► /claude-image "prompt" ──► agy -p "...
 
 ## Install
 
-The skill lives in `~/.claude/skills/claude-image/`. Claude Code auto-discovers skills in
-this directory on startup.
+### Option 1 — skills.sh CLI (recommended)
 
-To use it on another machine, drop the whole folder into `~/.claude/skills/claude-image/`
-and restart Claude Code.
+```bash
+npx skills add hieuday88/claude-image
+```
+
+### Option 2 — git clone
+
+```bash
+git clone https://github.com/hieuday88/claude-image.git ~/.claude/skills/claude-image
+```
+
+### Option 3 — manual
+
+Drop the whole folder into `~/.claude/skills/claude-image/`.
+
+Claude Code auto-discovers skills in `~/.claude/skills/` on startup — restart your session
+after installing.
 
 ### `agy` binary path
 
